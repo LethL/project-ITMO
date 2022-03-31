@@ -1,0 +1,37 @@
+.header {
+    padding: 13px 165px;
+    background-color: #000D26;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.header__menu-item {
+    width: 100px;
+    height: 44px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__menu-item:last-child {
+    margin-right: 0;
+}
+
+.header__menu-item_active {
+    border-bottom: 2px solid #009FAC;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 19px;
+}
